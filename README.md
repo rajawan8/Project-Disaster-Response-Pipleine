@@ -1,6 +1,6 @@
 # Disaster Response Pipelines
 # Table of Contents
-#1.	Installation
+1.	Installation
 2.	Project Motivation
 3.	Project Descriptions
 4.	Files Descriptions
