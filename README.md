@@ -6,7 +6,9 @@
 4.	Files Descriptions
 5.	Instructions
 # Installation
+
 All libraries are available in Anaconda distribution of Python. The used libraries are:
+
 •	pandas
 •	re
 •	sys
