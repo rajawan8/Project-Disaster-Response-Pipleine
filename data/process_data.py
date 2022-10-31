@@ -39,7 +39,7 @@ def clean_data(df):
 
 def save_data(df, database_filename):
     engine = create_engine('sqlite:///'+database_filename)
-    df.to_sql('disaster_messages_database', engine,if_exists = 'replace', index=False)  
+    df.to_sql('DisasterResponse', engine,if_exists = 'replace', index=False)  
 
 
 def main():
@@ -65,7 +65,7 @@ def main():
               'well as the filepath of the database to save the cleaned data '\
               'to as the third argument. \n\nExample: python process_data.py '\
               'disaster_messages.csv disaster_categories.csv '\
-              'disaster_messages_database.db')
+              'DisasterResponse.db')
 
 
 if __name__ == '__main__':
