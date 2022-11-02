@@ -53,9 +53,10 @@ The files structure is arranged as below:
 		- disaster_categories.csv: categories dataset
 		- disaster_messages.csv: messages dataset
 		- process_data.py: ETL process
+		- disaster_messages_database.db: disaster response database
 	- \models
 		- train_classifier.py: classification code
-	- DisasterResponse.db: disaster response database	
+		
 # Instructions
 To execute the app follow the instructions:
 1.	Run the following commands in the project's root directory to set up your database and model.
